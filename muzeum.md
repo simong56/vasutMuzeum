@@ -1,11 +1,11 @@
-# 🚂 Vasúti Közlekedési Eszközök Múzeuma
+# Vasúti Közlekedési Eszközök Múzeuma
 ## Állandó kiállítás – Tárgyak katalógusa
 
 ---
 
 ## I. MOZDONYOK
 
-### 🔥 1. Gőzmozdonyok
+### 1. Gőzmozdonyok
 
 **1. Szerkocsis expresszmozdony – 328-as sorozat (1900)**
 Kéttengelyes szerkocsis, túlhevítős gőzmozdony, a Monarchia egyik jellegzetes gyorsvonati gépe. A Budapest–Bécs expresszen teljesített szolgálatot. Tengelyelrendezése: 2B (két futó + két kapcsolt kerékpár). A kiállított példány pályaszáma 328.042, eredeti fekete-vörös festéssel.
@@ -24,7 +24,7 @@ Kombinált hajtású hegyi gőzmozdony, amely mind hagyományos sínpályán, mi
 
 ---
 
-### ⚙️ 2. Dízel–mechanikus mozdonyok
+### 2. Dízel–mechanikus mozdonyok
 
 **6. Ganz-féle dízel-mechanikus motorkocsi-mozdony – M25-ös sorozat (1936)**
 A Ganz Vagongyár korai dízel-mechanikus fejlesztése, amelyet elsősorban mellékvonali személyszállításra és könnyű tolatásra terveztek. A hajtómotor teljesítménye 100 kW; erőátvitele egyszerű, többfokozatú fogaskerék-hajtóművel működik. A kis teljesítmény miatt csak könnyebb munkára volt alkalmas.
@@ -34,7 +34,7 @@ Erdei- és ipari vasutakon alkalmazott, 760 mm nyomközű kismozdony. Egyszerű 
 
 ---
 
-### 💧 3. Dízel–hidraulikus mozdonyok
+### 3. Dízel–hidraulikus mozdonyok
 
 **8. DHM 2-2 típusú dízel-hidraulikus tolatómozdony (1959)**
 A Ganz-MÁVAG által gyártott, Egyiptomba is exportált típus hazai változata. A 450 LE-s dízelmotorból nyert hajtónyomatékot folyadékkör közvetíti a rudazatos kerékhajtáshoz – ez a dízel-hidraulikus elv gyakorlati megvalósítása. Karbantartási igénye miatt a MÁV-nál soha nem vált annyira elterjedtté, mint a villamos erőátvitelű típusok.
@@ -47,7 +47,7 @@ A Ganz-MÁVAG közel-keleti exportra tervezett dízel-hidraulikus mozdonycsalád
 
 ---
 
-### ⚡ 4. Dízel–villamos mozdonyok
+### 4. Dízel–villamos mozdonyok
 
 **11. „NOHAB" – M61-es sorozat (1963)**
 Az amerikai GM-licensz alapján a svéd NOHAB gyár által épített, kultikus státuszú dízel-villamos mozdony. A hattengelyes, Bo'Bo'Bo' tengelyelrendezésű gép 1950 LE teljesítményű; belső égésű motorja generátort hajt, amely a hat vontatómotort táplálja. 1963-ban 20 példány érkezett Magyarországra. A kiállított M61.017 pályaszámú gép az eredeti, kétszintes gyári festési sémát viseli.
@@ -63,7 +63,7 @@ A Ganz-MÁVAG Bo'Bo' tengelyelrendezésű, közepes teljesítményű dízel-vill
 
 ---
 
-### 🔌 5. Villamos mozdonyok
+### 5. Villamos mozdonyok
 
 **15. Kandó-rendszerű fázisváltós villamos mozdony – V40-es sorozat (1932)**
 Kandó Kálmán zseniális fázisváltós rendszerét alkalmazó korai villamos mozdony. A 16 kV, 50 Hz-es hálózati feszültséget a jármű belső fázisváltója alakítja vontathatóvá – ez akkor egyedülálló megoldás volt a világon. A kiállított V40.004-es gép a Hegyeshalom–Budapest fővonali villamosítás első korszakából maradt fenn.
@@ -170,7 +170,3 @@ A Fiat Ferroviaria által kifejlesztett aktív dőlőszekrényes technológia ú
 
 **42. Acela Express – Észak-Amerika egyetlen nagysebességű vonata (USA, 2000)**
 Az Amtrak által a Washington–Boston tengelyen üzemeltetett szerelvény modellje és eredeti utastéri kellékei. Az Alstom által gyártott, Pendolino-technológián alapuló vonat maximális sebessége 240 km/h, de a megosztott pályainfrastruktúra miatt rendszeresen csak 150–200 km/h-n közlekedik. A kiállítás ezt az ellentmondást és az amerikai vasútfejlesztés korlátait is részletesen bemutatja.
-
----
-
-*A múzeum tárgyainak egy része kölcsönzés, más részük adományozás vagy vásárlás útján került a gyűjteménybe. Az összes mozdony eredeti alkatrészeit lehetőség szerint megőrizték; a hiányzó elemek jelölve vannak. A Nemzetközi Terem összeállításában a Deutsche Bahn Múzeum (Nürnberg), a Cité du Train (Mulhouse) és a Railway Museum Omiya (Szaitama) volt együttműködő partner.*
