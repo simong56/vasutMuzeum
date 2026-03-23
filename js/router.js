@@ -1,7 +1,7 @@
 const routes = {
   "/": { title: "Főoldal", file: "/routes/home.html" },
   "/mozdonyok": { title: "Mozdonyok", file: "/routes/mozdonyok.html" },
-  "/nagysebessegu": {title: "Nagysebességű vonatok", file: "/routes/nagysebessegu.html" },
+  "/nagysebessegu": { title: "Nagysebességű vonatok", file: "/routes/nagysebessegu.html" },
   "/szemely-motorkocsik": { title: "Személykocsik és motorkocsik", file: "/routes/szemely-motorkocsik.html" },
   "/palyafenntarto": { title: "Pályafenntartó és különleges járművek", file: "/routes/palyafenntarto.html" },
   "/muszerek": { title: "Műszerek, berendezések és jelzőeszközök", file: "/routes/muszerek.html" },
@@ -18,26 +18,16 @@ async function navigateTo(path) {
   app.innerHTML = await response.text();
 
   document.querySelectorAll("nav a[data-link]").forEach((link) => {
-    link.classList.toggle("active", link.getAttribute("href") === path);
+    const linkPath = link.getAttribute("href").replace(/^#/, "");
+    link.classList.toggle("active", linkPath === path);
   });
 }
 
 function router() {
-  navigateTo(window.location.pathname);
+  const path = window.location.hash.slice(1) || "/";
+  navigateTo(path);
 }
 
-document.addEventListener("click", (e) => {
-  const link = e.target.closest("[data-link]");
-  if (link) {
-    e.preventDefault();
-    const path = link.getAttribute("href");
-    if (path !== window.location.pathname) {
-      history.pushState(null, "", path);
-      router();
-    }
-  }
-});
-
-window.addEventListener("popstate", router);
+window.addEventListener("hashchange", router);
 
 router();

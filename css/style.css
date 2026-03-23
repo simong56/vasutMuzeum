@@ -4,10 +4,21 @@
   box-sizing: border-box;
 }
 
+:root {
+  --sidebar-bg:  #30364F;  /* dark navy sidebar */
+  --body-bg:     #F0F0DB;  /* warm cream body */
+  --hover-bg:    #252A3E;  /* darker navy for sidebar hover */
+  --border:      #C5C5AD;  /* slightly darker than cream */
+  --amber:       #E1D9BC;  /* warm cream accent on dark sidebar */
+  --text:        #30364F;  /* dark navy for body text */
+  --muted:       #ACBAC4;  /* muted blue-grey for nav links on dark bg */
+  --icon:        #6B7589;  /* dimmed icon color */
+}
+
 body {
-  background-color: #333;
+  background-color: var(--body-bg);
   font-family: system-ui, sans-serif;
-  color: #eee;
+  color: var(--text);
   display: flex;
   min-height: 100vh;
 }
@@ -17,23 +28,24 @@ nav {
   flex-direction: column;
   width: 280px;
   min-height: 100vh;
-  background: #444;
+  background: var(--sidebar-bg);
   flex-shrink: 0;
+  border-right: 1px solid var(--border);
 }
 
 nav a {
-  color: #ccc;
   text-decoration: none;
+  color: var(--muted);
   padding: 0.75rem 1rem;
-  transition: background 0.2s;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
   border-right: 3px solid transparent;
 }
 
 nav a:hover,
 nav a.active {
-  color: #fff;
-  background: #333;
-  border-right: 3px solid #eee;
+  background: var(--hover-bg);
+  color: var(--amber);
+  border-left: 3px solid var(--amber);
 }
 
 #app {
@@ -45,7 +57,7 @@ nav a.active {
   margin-top: auto;
   background: none;
   border: none;
-  color: #ccc;
+  color: var(--icon);
   font-size: 1.5rem;
   padding: 0.75rem 1rem;
   cursor: pointer;
@@ -54,7 +66,7 @@ nav a.active {
 }
 
 #collapse-btn:hover {
-  color: #fff;
+  color: var(--amber);
 }
 
 nav.collapsed {
@@ -78,4 +90,5 @@ nav.collapsed #collapse-btn {
 
 nav {
   overflow: hidden;
+  transition: width 0.1s;
 }
