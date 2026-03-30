@@ -31,3 +31,28 @@ function router() {
 window.addEventListener("hashchange", router);
 
 router();
+
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+
+app.addEventListener("click", (e) => {
+  if (e.target.tagName === "IMG") {
+    lightboxImg.src = e.target.src;
+    lightboxImg.alt = e.target.alt;
+    lightbox.classList.remove("hidden");
+  }
+});
+
+lightbox.addEventListener("click", (e) => {
+  if (e.target !== lightboxImg) {
+    lightbox.classList.add("hidden");
+    lightboxImg.src = "";
+  }
+});
+
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && !lightbox.classList.contains("hidden")) {
+    lightbox.classList.add("hidden");
+    lightboxImg.src = "";
+  }
+});
