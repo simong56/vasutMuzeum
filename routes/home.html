@@ -1,1 +1,350 @@
-<h1>yap</h1>
+<style>
+    .hero {
+      position: relative;
+      width: 100%;
+      min-height: 340px;
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 2rem;
+      background: var(--sidebar-bg);
+    }
+  
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(48,54,79,0.92) 30%, rgba(48,54,79,0.3) 100%);
+      z-index: 1;
+    }
+  
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('/img/mozdonyok/328.jpg');
+      background-size: cover;
+      background-position: center 30%;
+      filter: grayscale(30%);
+    }
+  
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      padding: 2.5rem;
+    }
+  
+    .hero-content h1 {
+      background: none;
+      color: var(--body-bg);
+      text-align: left;
+      padding: 0;
+      font-size: 2.8rem;
+      line-height: 1.1;
+      margin-bottom: 0.5rem;
+      border-radius: 0;
+    }
+  
+    .hero-content p {
+      color: var(--muted);
+      font-family: 'Raleway', sans-serif;
+      font-size: 1rem;
+      text-align: left;
+      max-width: 520px;
+      margin-top: 0.5rem;
+    }
+  
+    .home-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+  
+    .info-card {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.5rem;
+    }
+  
+    .info-card h2 {
+      font-family: 'Arvo', serif;
+      font-size: 1.1rem;
+      color: var(--sidebar-bg);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--border);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+  
+    .price-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.45rem 0;
+      border-bottom: 1px solid var(--border);
+      font-family: 'Arvo', serif;
+      font-size: 0.95rem;
+    }
+  
+    .price-row:last-child {
+      border-bottom: none;
+    }
+  
+    .price-row .label {
+      color: var(--text);
+    }
+  
+    .price-row .price {
+      font-weight: bold;
+      color: var(--sidebar-bg);
+    }
+  
+    .price-row .price.free {
+      color: #5a7a5a;
+    }
+  
+    .open-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-family: 'Arvo', serif;
+      font-size: 0.9rem;
+    }
+  
+    .open-table td {
+      padding: 0.4rem 0;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+    }
+  
+    .open-table td:last-child {
+      text-align: right;
+      font-weight: bold;
+      color: var(--sidebar-bg);
+    }
+  
+    .open-table tr:last-child td {
+      border-bottom: none;
+    }
+  
+    .closed {
+      color: #a05050 !important;
+    }
+  
+    .facts-section {
+      margin-bottom: 2rem;
+    }
+  
+    .facts-section h2 {
+      font-family: 'Arvo', serif;
+      font-size: 1.1rem;
+      color: var(--sidebar-bg);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--border);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+  
+    .facts-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+  
+    .fact-card {
+      background: var(--sidebar-bg);
+      border-radius: 10px;
+      padding: 1.25rem;
+      color: var(--body-bg);
+    }
+  
+    .fact-card .fact-num {
+      font-family: 'Arvo', serif;
+      font-size: 2rem;
+      font-weight: bold;
+      color: var(--amber);
+      line-height: 1;
+      margin-bottom: 0.35rem;
+    }
+  
+    .fact-card p {
+      font-family: 'Raleway', sans-serif;
+      font-size: 0.85rem;
+      color: var(--muted);
+      text-align: left;
+      margin: 0;
+    }
+  
+    .highlight-section {
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+  
+    .highlight-section h2 {
+      font-family: 'Arvo', serif;
+      font-size: 1.1rem;
+      color: var(--sidebar-bg);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid var(--border);
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+  
+    .highlights {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+    }
+  
+    .highlight-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+  
+    .highlight-item .hl-tag {
+      font-family: 'Raleway', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+  
+    .highlight-item .hl-name {
+      font-family: 'Arvo', serif;
+      font-size: 0.95rem;
+      color: var(--sidebar-bg);
+      font-weight: bold;
+      line-height: 1.2;
+    }
+  
+    .highlight-item .hl-desc {
+      font-family: 'Raleway', sans-serif;
+      font-size: 0.82rem;
+      color: #666;
+      text-align: left;
+      margin: 0;
+    }
+  
+    .notice {
+      background: #f7f4e8;
+      border-left: 4px solid var(--sidebar-bg);
+      border-radius: 0 8px 8px 0;
+      padding: 1rem 1.25rem;
+      margin-bottom: 2rem;
+      font-family: 'Arvo', serif;
+      font-size: 0.88rem;
+      color: var(--text);
+    }
+  
+    .notice strong {
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+  </style>
+  
+  <div class="colcont">
+  
+    <div class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Vasúti Közlekedési<br>Eszközök Múzeuma</h1>
+        <p>42 jármű és műtárgy — gőzmozdonyoktól a szupervonatokig. Lépjen be, és fedezze fel a vasút 130 évét.</p>
+      </div>
+    </div>
+  
+    <div class="home-grid">
+      <div class="info-card">
+        <h2>Belépőjegyek</h2>
+        <div class="price-row">
+          <span class="label">Felnőtt</span>
+          <span class="price">2 800 Ft</span>
+        </div>
+        <div class="price-row">
+          <span class="label">Diák / Nyugdíjas</span>
+          <span class="price">1 600 Ft</span>
+        </div>
+        <div class="price-row">
+          <span class="label">Gyermek (6 éven alul)</span>
+          <span class="price free">Ingyenes</span>
+        </div>
+        <div class="price-row">
+          <span class="label">Családi jegy (2 felnőtt + 2 gyermek)</span>
+          <span class="price">6 400 Ft</span>
+        </div>
+        <div class="price-row">
+          <span class="label">Csoportos (min. 10 fő)</span>
+          <span class="price">1 400 Ft / fő</span>
+        </div>
+      </div>
+  
+      <div class="info-card">
+        <h2>Nyitvatartás</h2>
+        <table class="open-table">
+          <tr><td>Hétfő</td><td class="closed">Zárva</td></tr>
+          <tr><td>Kedd – Péntek</td><td>10:00 – 18:00</td></tr>
+          <tr><td>Szombat</td><td>9:00 – 19:00</td></tr>
+          <tr><td>Vasárnap</td><td>10:00 – 16:00</td></tr>
+          <tr><td>Ünnepnapok</td><td>10:00 – 14:00</td></tr>
+        </table>
+      </div>
+    </div>
+  
+    <div class="notice">
+      <strong>📍 Látogatói információ</strong>
+      Az interaktív mozdonyvezető-fülke (25. sz. műtárgy) naponta 11:00 és 15:00 órakor foglalt idegenvezetéssel látogatható. Csoportos foglaláshoz kérjük, keresse ügyfélszolgálatunkat.
+    </div>
+  
+    <div class="highlight-section">
+      <h2>Kiemelkedő kiállítási tárgyak</h2>
+      <div class="highlights">
+        <div class="highlight-item">
+          <span class="hl-tag">Gőzmozdony · 1924</span>
+          <span class="hl-name">„Bivaly" – 424-es sorozat</span>
+          <p class="hl-desc">A MÁV legendája: 1760 LE, 2D1 tengelyelrendezés. 1984-ig üzemelt.</p>
+        </div>
+        <div class="highlight-item">
+          <span class="hl-tag">Dízel-villamos · 1963</span>
+          <span class="hl-name">„NOHAB" – M61-es sorozat</span>
+          <p class="hl-desc">GM-licensz, svéd gyártás, kultikus státusz. Eredeti kétszintes festés.</p>
+        </div>
+        <div class="highlight-item">
+          <span class="hl-tag">Nagysebességű · 1964</span>
+          <span class="hl-name">Shinkansen 0-sorozat</span>
+          <p class="hl-desc">A világ első kereskedelmi „golyóvonata" — 1:5 méretarányú gyári modell.</p>
+        </div>
+        <div class="highlight-item">
+          <span class="hl-tag">Rekorder · 2007</span>
+          <span class="hl-name">TGV POS – 574,8 km/h</span>
+          <p class="hl-desc">A kötöttpályás vasút veretlen világrekordja. Eredeti mérőműszerekkel.</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="facts-section">
+      <h2>Néhány szám a gyűjteményről</h2>
+      <div class="facts-grid">
+        <div class="fact-card">
+          <div class="fact-num">42</div>
+          <p>kiállítási tárgy az állandó gyűjteményben — járművek, modellek, műszerek és relikviák</p>
+        </div>
+        <div class="fact-card">
+          <div class="fact-num">130+</div>
+          <p>évnyi vasúttörténet: az 1890-es fogaskerekűtől a 2020-as Shinkansen N700S modellekig</p>
+        </div>
+        <div class="fact-card">
+          <div class="fact-num">12</div>
+          <p>ország vasúti kultúrája jelenik meg a Nemzetközi Nagysebességű Vasút teremben</p>
+        </div>
+      </div>
+    </div>
+  
+  </div>
