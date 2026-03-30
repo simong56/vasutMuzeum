@@ -1,172 +1,199 @@
-# Vasúti Közlekedési Eszközök Múzeuma
-## Állandó kiállítás – Tárgyak katalógusa
+# I. MOZDONYOK
+
+## 1. Gőzmozdonyok
+
+### 1. Szerkocsis expresszmozdony – 328-as sorozat (1900)
+
+A 328-as sorozatú gőzmozdony az Osztrák–Magyar Monarchia vasúti aranykorának egyik legmeghatározóbb gyorsvonati típusa volt. Ez a kéttengelyes szerkocsival felszerelt, túlhevítős gépezet kifejezetten a nagy távolságú, tekintélyes sebességű személyszállításra született, leggyakrabban a Budapest és Bécs közötti presztízsvonalon csillogtatta meg képességeit. Tengelyelrendezése a klasszikus 2B séma, ami két elülső futó- és két nagyméretű kapcsolt kerékpárt jelent, biztosítva a stabil futást és a megfelelő vonóerőt a korszak elegáns expresszvonatainak továbbításához. Kifinomult technikai megoldásai és elegáns fekete-vörös megjelenése révén a magyar gőzmozdonygyártás egyik csúcspontját képviselte a 20. század fordulóján.
+
+### 2. Szertartályos tolatómozdony – 377-es sorozat (1914)
+
+A 377-es sorozatú, C-tengelyelrendezésű gép a rendezőpályaudvari munka és a mellékvonali forgalom elengedhetetlen igáslova volt. Jellegzetes, rövid és zömök felépítése kiváló manőverezhetőséget biztosított a szűk vágánykapcsolatok között is. A típus különlegessége a szertartályos kialakítás: a vizet a kazán két oldalán elhelyezett tartályokban, a szenet pedig a kazán feletti szénteknőben tárolták, így nem volt szükség külön szerkocsira. Ez a kompakt felépítés tette lehetővé, hogy a mozdony mindkét irányban azonos sebességgel és jó kilátással közlekedhessen, ami a tolatási műveleteknél kritikus fontosságú volt.
+
+### 3. Hegyi fogaskerekű gőzmozdony – HKB-típus (1890)
+
+A Riggenbach-rendszerű fogaskerekű mozdony a mérnöki leleményesség példája a meredek hegyi pályák leküzdésére. Míg a hagyományos mozdonyok kerekei elpörögnének a nagy emelkedőkön, ez a típus a sínek közé fektetett fogasrúdba kapaszkodva képes akár 80‰-es emelkedőn is biztonságosan közlekedni. A kazán dőlésszögét úgy tervezték meg, hogy a meredek pályán is víz fedje a tűzszekrény mennyezetét, megelőzve a robbanásveszélyt. Ezek a gépek kizárólag speciális hegyi vonalakon teljesítettek szolgálatot, ahol a tapadásos vontatás már csődöt mondott volna.
+
+### 4. „Bivaly" – 424-es sorozat (1924)
+
+A „Bivaly" becenevű 424-es sorozat nem csupán egy mozdony, hanem a magyar vasúttörténet egyik legfontosabb szimbóluma, amely évtizedeken át alkotta a hazai vontatás gerincét. Ez az 1924-ben debütált, 2D1 tengelyelrendezésű, túlhevítős kompaund gép 1760 lóerős teljesítményével szinte minden feladatra alkalmas volt, a nehéz tehervonatoktól a sebesvonatokig. Robusztus felépítése és legendás megbízhatósága tette lehetővé, hogy egészen az 1980-as évek közepéig szolgálatban maradjon, túlélve sok modernebb utódját is. Hatalmas ereje és tekintélyt parancsoló megjelenése okán ragadt rá a népnyelvben a „Bivaly" elnevezés.
+
+### 5. Szertartályos hegyvidéki mozdony, fogaskerekű szakasszal – GySEV-típus (1908)
+
+Ez a ritka, kombinált hajtású gőzmozdony az átmeneti domborzati viszonyok specialistája volt, amely képes volt mind a hagyományos tapadásos síneken, mind a fogaskerekű szakaszokon hatékonyan üzemelni. A mérnökök számára komoly kihívást jelentett a hajtókerék-átmérő és a fogaskerék-osztás összehangolása, hogy a gép rángatásmentesen válthasson a két üzemmód között. Mivel az ilyen vegyes profilú pályákból kevés akadt, a típusból csupán néhány példány készült, így a technológiatörténet egyik legérdekesebb, speciális feladatra szabott mellékági fejlesztése maradt.
+
+## 2. Dízel–mechanikus mozdonyok
+
+### 6. Ganz-féle dízel-mechanikus motorkocsi-mozdony – M25-ös sorozat (1936)
+
+A Ganz Vagongyár úttörő fejlesztése a motorizáció korai szakaszából származik, célja a gazdaságtalan gőzvontatás kiváltása volt a mellékvonalakon. A 100 kW-os hajtómotor és az egyszerű, többfokozatú mechanikus sebességváltó a korabeli teherautók technológiáját emelte vasúti szintre. Bár vonóereje korlátozott volt, a könnyű személyszállító vonatok továbbítására és a kisebb állomások tolatási feladatainak elvégzésére tökéletesen megfelelt, megalapozva a későbbi, nagyobb teljesítményű dízelmozdonyok sikerét.
+
+### 7. Keskeny nyomközű dízel-mechanikus kismozdony – Gmf 1/1 típus (1950-es évek)
+
+A 760 mm-es nyomtávolságú erdei és ipari vasutak nélkülözhetetlen szereplője ez a robusztus kismozdony, amelyet a legzordabb munkakörülményekre terveztek. Hegesztett acélváza és egyszerű mechanikus erőátvitele lehetővé tette a helyszíni, akár erdőszéli karbantartást is. Különlegessége a kézi működtetésű forgó-fordító berendezés, amellyel a mozdony akár egy helyben is megfordítható volt, ha a pálya vége nem rendelkezett hurokvágánnyal. Ez a típus évtizedeken át szolgálta a fa- és nyersanyagszállítást a nehezen megközelíthető vidékeken.
+
+## 3. Dízel–hidraulikus mozdonyok
+
+### 8. DHM 2-2 típusú dízel-hidraulikus tolatómozdony (1959)
+
+A Ganz-MÁVAG nemzetközi sikereit is megalapozó típus a hidrodinamikus erőátvitel elvén alapult, ahol a 450 lóerős motor nyomatékát folyadékkör közvetítette a kerekekhez. Ez a megoldás sima indulást és fokozatmentes gyorsulást biztosított, ami ideálissá tette a nehéz tolatási manőverekhez. Bár a típus jelentős exportkarriert futott be – többek között Egyiptomban is –, a hazai hálózaton a bonyolultabb karbantartási igényei miatt végül háttérbe szorult a később elterjedő villamos erőátvitelű típusokkal szemben.
+
+### 9. „Csörgő" – M41-es sorozat (1974)
+
+Az M41-es sorozat a magyar vasút modernizációjának egyik legfontosabb láncszeme volt, amely a gőzvontatás végleges felszámolását tűzte ki célul a nem villamosított fővonalakon. Nevét a V12-es Pielstick-licenc alapján készült dízelmotor összetéveszthetetlen, fémes csörgő hangjáról kapta. A hidraulikus hajtómű közvetlenül, elektromos generátor közbeiktatása nélkül mozgatja a négy tengelyt, ami kompakt és viszonylag könnyű szerkezetet eredményezett. Sokoldalúságát bizonyítja, hogy a nehéz személyszállító vonatoktól a teherszerelvényekig szinte minden forgalmi helyzetben helytállt.
+
+### 10. Exportmozdony-tervek – DHX sorozat (1961)
+
+A DHX sorozat a Ganz-MÁVAG mérnöki export-offenzívájának csúcsát képviselte, kifejezetten a Közel-Kelet extrém időjárási körülményeihez tervezve. A tervekben különös figyelmet fordítottak a homok elleni védelemre és a hűtőrendszer hatékonyságára, hogy a gépek a sivatagi hőségben is üzembiztosak maradjanak. Ezek a dízel-hidraulikus mozdonyok az egyiptomi államvasutak megrendelésére készültek, és a magyar gépipar akkori nemzetközi versenyképességének legfontosabb bizonyítékai voltak a globális piacon.
+
+## 4. Dízel–villamos mozdonyok
+
+### 11. „NOHAB" – M61-es sorozat (1963)
+
+A svéd NOHAB gyár által épített M61-es sorozat az amerikai General Motors technológiáját hozta el Európába, és hamar kultikus státuszba emelkedett a hazai vasutasok és utasok körében. A 1950 lóerős dízelmotor egy főgenerátort hajt meg, amely árammal látja el a hattengelyes futómű minden egyes vontatómotorját. Ez a dízel-villamos konstrukció páratlan megbízhatóságot és vonóerőt biztosított az 1960-as évektől. Bár politikai okokból csak 20 darab érkezett belőle, a „NOHAB-ok" lettek a magyar vasút legmegbecsültebb gépei, amelyek az északi part és a nemzetközi gyorsvonatok koronázatlan királyaiként szolgáltak.
+
+### 12. „Szergej" – M62-es sorozat (1966)
+
+A Szovjetunióból származó M62-es sorozat a KGST-együttműködés keretében vált a magyar nehéz tehervontatás meghatározó erejévé. A Co'Co' tengelyelrendezésű, 1470 kW teljesítményű óriásokat kifejezetten masszív igénybevételre tervezték; hiányzott belőlük a vonatfűtő berendezés, mivel elsődleges feladatuk a kilométeres tehervonatok továbbítása volt. A „Szergej" becenevű gépek dübörgő hangja és hatalmas vonóereje évtizedekig hozzátartozott a magyar vasúti tájképhez, a 270 darabos flotta pedig a MÁV dízelstratégiájának alapkövét jelentette.
+
+### 13. „Púpos" – M40-es sorozat (1964)
+
+Az M40-es sorozat a Ganz-MÁVAG egyik legsikeresebb dízel-villamos fejlesztése volt, amely nevét a géptér felett középen elhelyezett, jellegzetesen magasra emelt vezetőállásáról kapta. Az 1000 lóerős, 16 hengeres Ganz-Jendrassik motorral felszerelt gépek kiválóan alkalmasak voltak a mellékvonali és nehéz tolatási feladatokra. A típus hosszú élettartamát és korszerűsíthetőségét bizonyítja, hogy több példánya később modern amerikai motorokat kapott, de az eredeti konstrukció arányai és karakteres sziluettje változatlan maradt.
+
+### 14. „M44-es" tolatómozdony (1960-as évek)
+
+Az M44-es sorozat a magyar iparvágányok és pályaudvarok leggyakoribb és legmegbízhatóbb szereplője. Ez a Bo'Bo' tengelyelrendezésű dízel-villamos gép közepes teljesítményével és egyszerű kezelhetőségével vívta ki az elismerést. Sikerét jelzi, hogy nemcsak belföldön vált egyeduralkodóvá, hanem jelentős mennyiségben exportálták Kubától Egyiptomon át Lengyelországig. Robusztus felépítése és alacsony szervizigénye miatt sok példánya még a 21. század elején is aktív szolgálatban maradt az ipari létesítmények kiszolgálásában.
+
+## 5. Villamos mozdonyok
+
+### 15. Kandó-rendszerű fázisváltós villamos mozdony – V40-es sorozat (1932)
+
+Kandó Kálmán korszakalkotó találmánya, a fázisváltós rendszer tette lehetővé, hogy a vasút közvetlenül az országos, 50 Hz-es váltakozó áramú hálózatról vételezzen energiát. A V40-es mozdony belsejében egy hatalmas forgógép alakította át a nagyfeszültséget a vontatómotorok számára szükséges többfázisú árammá. Ez a technológia a 1930-as években világelsőséget jelentett Magyarországnak, és a Budapest–Hegyeshalom vonal villamosításával bizonyította be, hogy a gőzvontatásnak van életképes és környezetbarát alternatívája a távolsági közlekedésben is.
+
+### 16. „Szili" – V43-as sorozat (1963)
+
+A V43-as sorozat a modern magyar villamos vontatás megteremtője, amely szilíciumegyenirányítós technológiájáról kapta a „Szili" becenevet. A 2550 kW teljesítményű, 130 km/h végsebességű mozdonyok licenszét egy nyugat-európai konzorciumtól vásárolta meg a magyar állam, majd a hazai ipar gyártotta tovább őket százas nagyságrendben. Ez a típus vált a leguniverzálisabb járművé: egyaránt továbbított nehéz tehervonatokat és könnyű ingavonatokat, évtizedekre meghatározva a villamosított vonalak arculatát és üzemmenetét.
+
+### 17. „Gigant" – V63-as sorozat (1976)
+
+A V63-as sorozat a magyar mozdonygyártás erejének és technológiai tudásának csúcsát képviseli. A Co'Co' tengelyelrendezésű, több mint 4000 kW (kb. 5500 LE) teljesítményű gépek a legnagyobb és legerősebb hazai villamos mozdonyok, amit „Gigant" becenevük is hűen tükröz. Modern, tirisztoros vezérléssel és energia-visszatáplálásra alkalmas fékrendszerrel rendelkeznek, ami lehetővé tette a legsúlyosabb tranzit tehervonatok gazdaságos és biztonságos továbbítását a legfontosabb fővonalakon.
 
 ---
 
-## I. MOZDONYOK
+# II. SZEMÉLYKOCSIK ÉS MOTORKOCSIK
 
-### 1. Gőzmozdonyok
+### 18. II. osztályú fatestű személykocsi – Monarchia-típus (1896)
 
-**1. Szerkocsis expresszmozdony – 328-as sorozat (1900)**
-Kéttengelyes szerkocsis, túlhevítős gőzmozdony, a Monarchia egyik jellegzetes gyorsvonati gépe. A Budapest–Bécs expresszen teljesített szolgálatot. Tengelyelrendezése: 2B (két futó + két kapcsolt kerékpár). A kiállított példány pályaszáma 328.042, eredeti fekete-vörös festéssel.
+A 19. század végének utazási kultúráját idézi ez a négytengelyes, tölgyfából készült kocsiszekrénnyel rendelkező jármű. A belső kialakítás a korszak társadalmi rendjét tükrözte: az elszigetelt, folyosó nélküli kupék intimitást biztosítottak, de az utasok csak az állomásokon tudtak kocsit váltani. A világítást eredetileg olajlámpák adták, a fűtésről pedig gőzvezeték gondoskodott. Az ilyen kocsik alkották a Déli Vasút Budapest és Bécs közötti expresszvonatainak gerincét, ötvözve a kézműves asztalosmunkát a korabeli gépészettel.
 
-**2. Szertartályos tolatómozdony – 377-es sorozat (1914)**
-Rendező-pályaudvari tolatásra tervezett C-tengelyes szertartályos gőzmozdony, jellegzetes rövid, zömök testtel. Két oldalt elhelyezett víztartályai és a kazán feletti szénteknő teszi felismerhetővé. A kiállított példány a debreceni rendezőpályaudvaron üzemelt 1958-ig.
+### 19. Ganz-féle diesel-mechanikus motorkocsi – IIIa sorozat (1929)
 
-**3. Hegyi fogaskerekű gőzmozdony – HKB-típus (1890)**
-Riggenbach-rendszerű fogaskerekű gőzmozdony, kifejezetten meredek hegyvidéki pályára tervezve. Különlegessége a sín közé épített fogasrúd és a hozzá illeszkedő fogaskerék-hajtómű, amely 80‰ emelkedőn is üzemelhetett. Kizárólag hegyi mellékvonalakon közlekedett.
+A IIIa sorozatú motorkocsi a vidéki szárnyvonalak megmentője volt, amely olcsóbb és gyorsabb eljutást kínált a gőzvontatású vegyesvonatoknál. A 90 lóerős dízelmotor közvetlenül a forgóvázat hajtotta, ami kompakt és hatékony egységet alkotott. A belső térben kényelmes bőrülések várták az utasokat, a jármű barna-krém festése pedig messziről felismerhetővé tette a modern motorkocsikat. Ez a konstrukció alapozta meg a Ganz világhírnevét a motorkocsi-gyártás területén.
 
-**4. „Bivaly" – 424-es sorozat (1924)**
-A MÁV egyik legikonikusabb és legtöbb példányban gyártott gőzmozdonya, amelyet a hazai vasút gerincének szoktak nevezni. 2D1 tengelyelrendezésű, túlhevítős kompaund gép, 1760 LE teljesítménnyel. A kiállított példány (424.247) az utolsó forgalomban volt példányok egyike, 1984-ig üzemelt. Becenevét hatalmas teljesítményéről kapta.
+### 20. Étkezőkocsi – Pullman-típus (1935)
 
-**5. Szertartályos hegyvidéki mozdony, fogaskerekű szakasszal – GySEV-típus (1908)**
-Kombinált hajtású hegyi gőzmozdony, amely mind hagyományos sínpályán, mind fogaskerekű szakaszon volt képes közlekedni. Ritka átmeneti típus: a hajtókerék-átmérő és a fogaskerék elosztása egyazon gépen belül kellett összehangolni. Csak néhány példány készült belőle.
+A luxusutazás netovábbját képviselő Pullman-rendszerű étkezőkocsik a Magyar Királyi Államvasutak legexkluzívabb szerelvényeiben közlekedtek. A belső tér mahagóni faburkolata, a kristálycsillárok és a selyemkárpitok a korabeli főúri szalonok hangulatát idézték. A kocsiban teljes értékű konyha működött, ahol 24 utas számára tudtak egyszerre meleg ételt és minőségi italokat felszolgálni, miközben a vonat akár 100 km/h-s sebességgel száguldott úti célja felé.
 
----
+### 21. Zárt postakocsi (1881)
 
-### 2. Dízel–mechanikus mozdonyok
-
-**6. Ganz-féle dízel-mechanikus motorkocsi-mozdony – M25-ös sorozat (1936)**
-A Ganz Vagongyár korai dízel-mechanikus fejlesztése, amelyet elsősorban mellékvonali személyszállításra és könnyű tolatásra terveztek. A hajtómotor teljesítménye 100 kW; erőátvitele egyszerű, többfokozatú fogaskerék-hajtóművel működik. A kis teljesítmény miatt csak könnyebb munkára volt alkalmas.
-
-**7. Keskeny nyomközű dízel-mechanikus kismozdony – Gmf 1/1 típus (1950-es évek)**
-Erdei- és ipari vasutakon alkalmazott, 760 mm nyomközű kismozdony. Egyszerű mechanikus sebességváltóval és kézi forgó-fordítóval ellátott, robusztus hegesztett acélvázas szerkezet. Fennmaradó példányai közül ez az egyetlen múzeumi megőrzésű.
+A vasúti postaszolgálat a 19. században az információáramlás motorja volt, és ezek a speciális kocsik gördülő postahivatalként működtek. A belső térben levélválogató asztalok, trezorok és zsákakasztó rudak kaptak helyet, lehetővé téve, hogy a küldeményeket már a menet közben szétválogassák a rendeltetési helyük szerint. A postakocsi minden jelentősebb vonat elmaradhatatlan része volt, biztosítva a hírek és pénzküldemények gyors és biztonságos célba jutását az egész országban.
 
 ---
 
-### 3. Dízel–hidraulikus mozdonyok
+# III. PÁLYAFENNTARTÓ ÉS KÜLÖNLEGES JÁRMŰVEK
 
-**8. DHM 2-2 típusú dízel-hidraulikus tolatómozdony (1959)**
-A Ganz-MÁVAG által gyártott, Egyiptomba is exportált típus hazai változata. A 450 LE-s dízelmotorból nyert hajtónyomatékot folyadékkör közvetíti a rudazatos kerékhajtáshoz – ez a dízel-hidraulikus elv gyakorlati megvalósítása. Karbantartási igénye miatt a MÁV-nál soha nem vált annyira elterjedtté, mint a villamos erőátvitelű típusok.
+### 22. Kézi meghajtású síncsiszoló szerkocsi (1935)
 
-**9. „Csörgő" – M41-es sorozat (1974)**
-A Ganz-MÁVAG 1972–1984 között gyártott dízel-hidraulikus mozdonya, amely a gőzkorszak lezárultával átvette a nehéz személyvonati és vegyes forgalmi feladatokat. Nevét a V12-es dízelmotorjának jellegzetes csörgő hangjáról kapta. Hidraulikus hajtómű közvetlenül viszi a nyomatékot a négy tengelyre, generátor és vontatómotor nélkül. A kiállított példány (M41.2043) eredeti gyárifestésben van.
+A sínpályák karbantartásának egyik legegyszerűbb, mégis leghatékonyabb eszköze volt ez a kézi hajtású jármű. A munkások egy fogaskerekes áttétel segítségével hozták mozgásba a csiszolóköveket, amelyek a sínfejek felületi hibáit, a hullámos kopásokat és a rozsdát távolították el. Bár lassú és nehéz fizikai munkát igényelt, a precíz öntöttvas szerkezet lehetővé tette a pálya élettartamának jelentős meghosszabbítását olyan helyeken is, ahol a nagy gépi csiszolók nem fértek el.
 
-**10. Exportmozdony-makett és tervdokumentáció – DHX sorozat (1961)**
-A Ganz-MÁVAG közel-keleti exportra tervezett dízel-hidraulikus mozdonycsaládjának eredeti 1:10 méretarányú gyári modellje és teljes tervdokumentációs készlete. Ezek a mozdonyok az egyiptomi vasutak számára készültek; a makett egyike az utolsó ismert megmaradt példányoknak.
+### 23. Önjáró hóekés mozdony – OHM-típus (1908)
 
----
+A havas hegyi vonalak járhatóságának záloga a forgó-ekerendszerű hókotró gép volt. A szerkezet elején elhelyezett hatalmas, gőzgéppel hajtott lapátkerék nem egyszerűen félretolta a havat, hanem nagy sebességgel felkapta és messzire repítette a pálya mellé. Ez a technológia megakadályozta, hogy a magas hófalak visszaomoljanak a vágányra. Üzemeltetéséhez egy másik mozdonyra volt szükség, amely hátulról tolta az eszközt a hófalba, miközben a hómaró saját gőzkazánja a forgófejet táplálta.
 
-### 4. Dízel–villamos mozdonyok
+### 24. Sínszintező optikai mérőkocsi (1923)
 
-**11. „NOHAB" – M61-es sorozat (1963)**
-Az amerikai GM-licensz alapján a svéd NOHAB gyár által épített, kultikus státuszú dízel-villamos mozdony. A hattengelyes, Bo'Bo'Bo' tengelyelrendezésű gép 1950 LE teljesítményű; belső égésű motorja generátort hajt, amely a hat vontatómotort táplálja. 1963-ban 20 példány érkezett Magyarországra. A kiállított M61.017 pályaszámú gép az eredeti, kétszintes gyári festési sémát viseli.
-
-**12. „Szergej" – M62-es sorozat (1966)**
-Szovjet gyártású dízel-villamos mozdony, amelyből a MÁV összesen 270 darabot szerzett be – részben a NOHAB-vásárlások szovjet tiltása miatt. Co'Co' tengelyelrendezésű, 1470 kW teljesítményű nehéz tehervonati gép, nagy sorozatszáma meghatározta a hazai vasút képét évtizedeken át. A kiállított példány (M62.164) eredeti szovjet gyári állapotban, helyreállított festéssel látható.
-
-**13. „Púpos" – M40-es sorozat (1964)**
-A Ganz-MÁVAG által 1963–1970 között gyártott dízel-villamos mozdony, 1000 LE-s Ganz-Jendrassik 16 hengeres motorral. Nevét a motorháztető jellegzetes púpjáról kapta. Elsősorban mellékvonali személyvonatok húzására alkalmazták. Három példányt utóbb Caterpillar-motorra modernizáltak; az itt kiállított M40.309-es az eredeti Ganz-motorral maradt fenn.
-
-**14. „M44-es" tolatómozdony (1960-as évek)**
-A Ganz-MÁVAG Bo'Bo' tengelyelrendezésű, közepes teljesítményű dízel-villamos tolatómozdonya, amely a hazai pályaudvarokon és iparvágányokon egyaránt elterjedt. Az exportsikereket elért típus Egyiptomban, Kubában és más országokban is szolgált. A kiállított M44.417-es állomási tolatószolgálatból vonták ki 1998-ban.
+A Carl Zeiss Jena által gyártott mérőjármű a vasútgeometria pontosságának őre volt a két világháború között. A teodolit elvén működő optikai rendszerrel a mérnökök milliméteres pontossággal tudták ellenőrizni a sínek vízszintes és függőleges vonalvezetését, az ívek sugarát és a vágányok dőlésszögét. A hosszú, teleszkópos látcsővel ellátott műszer lehetővé tette a hibák korai felismerését, megelőzve a kisiklásokat és biztosítva a vonatok sima futását a nagy sebességű szakaszokon is.
 
 ---
 
-### 5. Villamos mozdonyok
+# IV. MŰSZEREK, BERENDEZÉSEK, JELZŐESZKÖZÖK
 
-**15. Kandó-rendszerű fázisváltós villamos mozdony – V40-es sorozat (1932)**
-Kandó Kálmán zseniális fázisváltós rendszerét alkalmazó korai villamos mozdony. A 16 kV, 50 Hz-es hálózati feszültséget a jármű belső fázisváltója alakítja vontathatóvá – ez akkor egyedülálló megoldás volt a világon. A kiállított V40.004-es gép a Hegyeshalom–Budapest fővonali villamosítás első korszakából maradt fenn.
+### 25. Gőzmozdony-vezérlőállás technológiája (1920-as évek)
 
-**16. „Szili" – V43-as sorozat (1963)**
-A hazai villamosított vonalhálózat bővülésével párhuzamosan rendelt, szilíciumegyenirányítós villamos mozdony – innen a „Szili" becenév. Bo'Bo' tengelyelrendezésű, 2550 kW teljesítményű, 130 km/h-s sebességképességű gép. Az 1960-as évektől a hazai vasút legfontosabb vontatójárművévé vált. A kiállított V43.1012 az első gyártási sorozatból való.
+A gőzmozdonyok irányítása rendkívüli figyelmet és szaktudást igényelt, ahol a személyzet közvetlen kapcsolatban állt a géppel. A vezérlőállás központi eleme a tűzszekrény ajtaja, ahol a fűtő adagolta a szenet, míg a mozdonyvezető a gőztolattyú karjával szabályozta az erőt. A falon elhelyezett rézműszerek – nyomásmérők, vízállásmutatók és injektorok – folyamatos visszajelzést adtak a kazán állapotáról. Ez a környezet a hőség, a gőz és a mechanikai visszacsatolások bonyolult rendszere volt, ahol minden kar mozdítása közvetlen hatással volt a vonat mozgására.
 
-**17. „Gigant" – V63-as sorozat (1976)**
-A hazai villamosmozdony-fejlesztés csúcsteljesítménye: Co'Co' tengelyelrendezésű, 4080 kW teljesítményű nehézteher-mozdony, amelynek becenevét kivételesen nagy méretéről kapta. A Ganz-MÁVAG által gyártott gép egyedi szilíciumos vontatási rendszerrel és regeneratív fékkel rendelkezik. A kiállított V63.009-es eredeti vörös-szürke festésben van bemutatva.
+### 26. Mechanikus blokktábla (1906)
 
----
+A forgalomirányítás biztonságát a mechanikus blokkberendezések garantálták, amelyek megakadályozták, hogy két vonat egyszerre tartózkodjon ugyanazon a vágányszakaszon. A rézből és öntöttvasból készült táblák elektromos és mechanikus reteszekkel voltak összekötve a szomszédos állomásokkal. A forgalmista csak akkor tudott szabad jelzést adni, ha a tábla „kiblokkolt", azaz a szomszéd kolléga elektromos úton igazolta, hogy a pálya szabad. Ez a technológia teremtette meg a modern vasúti biztonság alapjait, minimalizálva az emberi mulasztás lehetőségét.
 
-## II. SZEMÉLYKOCSIK ÉS MOTORKOCSIK
+### 27. Kettős szemafor jelzőkar (1899)
 
-**18. II. osztályú fatestű személykocsi – Monarchia-típus (1896)**
-Négyes tengelyes, gerendavázas személykocsi, egyedi tölgyfa burkolattal és eredeti olajlámpa-tartókkal. Belső elrendezése: hat elszigetelt kupé, folyosó nélkül. A Déli Vasút Budapest–Bécs vonalán volt forgalomban; restaurált állapotban, eredeti barnás krémszínű festéssel.
+A fényjelzők elterjedése előtt az acéloszlopos szemaforok voltak a vasút látható hangjai. A karok állása (vízszintes vagy ferde) határozta meg a vonat számára engedélyezett sebességet és a haladás irányát. Éjszaka gáz- vagy olajlámpák fénye világított át a színes üvegkorongokon (vörös vagy zöld), hogy a mozdonyvezető messziről tájékozódhasson. A karokat több száz méter hosszú drótkötelekkel mozgatták az állomási váltókezelő központokból, ami precíz mechanikai beállítást és folyamatos karbantartást igényelt.
 
-**19. Ganz-féle diesel-mechanikus motorkocsi – IIIa sorozat (1929)**
-Az első szériában gyártott magyar dízel-mechanikus motorkocsik egyike. A Ganz Vagongyár fejlesztette vidéki mellékvonalak kiszolgálására; 90 LE-s motor hajtja a forgóvázon elhelyezett kerékpárokat. Jellegzetes barna-krémszínű festése restaurált; eredeti bőrülések részben megmaradtak.
+### 28. Vasúti telefonközpont (1930-as évek)
 
-**20. Étkezőkocsi – Pullman-típus (1935)**
-Magyar Királyi Államvasutak számára épített luxus étkezőkocsi, mahagóni faburkolattal és csilláros belső térrel. 24 utas ellátására alkalmas asztalokkal, eredeti konyhaberendezéssel. A kiállítás keretében a teljes enteriőr hozzáférhető és bejárható.
-
-**21. Zárt postakocsi (1881)**
-A Magyar Királyi Posta megrendelésére épített küldemény-válogató kocsi. Belső elrendezése megőrzött: levélválogatói asztal, trezor, zsákakasztó rudak és uniformisszekrény. A típus évtizedeken át minden expresszen kötelező jármű volt.
+A vasúti távközlés gerincét a kapcsolótáblás telefonközpontok alkották, amelyek lehetővé tették az állomások, fűtőházak és a központi forgalomirányítás közötti azonnali kommunikációt. A tíz vagy több vonalat kezelő táblákon a kezelő dugaszok segítségével kapcsolta össze a hívó feleket. A bakelit készülékek és a réz csengők nemcsak az üzemszerű forgalmat szolgálták, hanem vészhelyzet esetén a segélykérések leggyorsabb útját is jelentették, mielőtt a rádióforgalmazás elterjedt volna a vonatokon.
 
 ---
 
-## III. PÁLYAFENNTARTÓ ÉS KÜLÖNLEGES JÁRMŰVEK
+# V. DOKUMENTUMOK ÉS RELIKVIÁK
 
-**22. Kézi meghajtású síncsiszoló szerkocsi (1935)**
-Fogaskerekű kézihajtású pályafenntartó jármű, amellyel a sínfejek kopását és szabálytalanságait szüntették meg. Egyedi öntöttvas kerekes fogaskerék-hajtószerkezete a korabeli pályaépítési technika ritka emléke.
+### 29. Történelmi vasúti hálózattérkép (1913)
 
-**23. Önjáró hóekés mozdony – OHM-típus (1908)**
-Forgó-ekerendszerű hókotrógép gőzmozdony alapon. A homlokán elhelyezett kettős ekerendszer forgó mozgással továbbítja az útjába kerülő havat; üzemeltetéséhez különleges tolatójármű szükséges. Télen a hegyi vonalak elengedhetetlen eszköze volt.
+Ez a 1:500 000 méretarányú, kézzel festett térkép az Osztrák–Magyar Monarchia vasúti infrastruktúrájának csúcspontját örökíti meg. A sűrű vágányhálózat jól mutatja a vasút akkori gazdasági és stratégiai jelentőségét, ahol minden fontosabb település elérhető volt sínpáron. A térkép különlegessége a jövőbe mutató tervek jelölése, mint például a Dráva-parti gyorspálya, amely a korabeli mérnökök ambícióit és az ország fejlődési irányait tükrözte, mielőtt a történelem átírta volna a határokat és a prioritásokat.
 
-**24. Sínszintező optikai mérőkocsi (1923)**
-Teodolit elvén működő, pályafenntartáshoz tervezett mérőjármű. Hosszú nyújtható látcsövével, vízszintes és függőleges aszimmetria-mérő skálájával a pályageometria pontosságát ellenőrizték. Gyártója: Carl Zeiss Jena.
+### 30. Állomásfőnöki díszegyenruha (1902)
 
----
-
-## IV. MŰSZEREK, BERENDEZÉSEK, JELZŐESZKÖZÖK
-
-**25. Gőzmozdony-vezérlőállás – teljes rekonstrukció (1920-as évek)**
-Eredeti nyomásmérők, gőztolattyú-karok, injektorok és tűzszekrény-ajtó felhasználásával összeállított autentikus mozdonyvezető-fülke. Interaktív: a látogatók a kézkarokat és a gőzköpenyt kezelhetik.
-
-**26. Mechanikus blokktábla – állomási forgalomirányítás (1906)**
-Réz- és öntöttvas szerkezetű mechanikus blokkezközzel a forgalomirányítók szomszédos állomásokkal engedélyezhették a vonatok haladását. Az ún. „blokkolási kultúra" kulcseszköze; teljesen működőképes állapotban.
-
-**27. Kettős szemafor jelzőkar tartószerkezettel (1899)**
-Teljes acéloszlopos állványán bemutatott kétkarú szemafor, eredeti piros-fehér jelzőlapokkal és drótvezetékes szervorendszerrel. A fényjelzők megjelenéséig ez volt a vasúti biztonsági rendszer alapeleme.
-
-**28. Vasúti állomás telefonközpontja (1930-as évek)**
-Tíz vonalat kezelő, forgalomirányítási célú kapcsolótáblás telefonközpont, eredeti bakelit kagylóval és réztalpas kezelőpanellel. A távközlési és forgalmi irányítás átmenetének korszakát képviseli.
+A vasút aranykorában az állomásfőnök a helyi közösség egyik legtekintélyesebb tisztviselője volt, akinek rangját a díszes egyenruha is hangsúlyozta. Az aranyhímzéses válllapok, a zsinóros sapka és a fehér kesztyű a katonai rendet és fegyelmet sugallta, ami elengedhetetlen volt a vasútbiztonság fenntartásához. Az egyenruha kiegészítője volt a szolgálati utasításfüzet, amely minden helyzetre pontos protokollt írt elő, valamint a jelzőpálca, amely az indítás jogát és felelősségét szimbolizálta a vonatindítás pillanatában.
 
 ---
 
-## V. DOKUMENTUMOK, MODELLEK ÉS RELIKVIÁK
+# VI. A VILÁG NAGYSEBESSÉGŰ VASÚTJAI
 
-**29. MÁV hálózattérkép, kézzel festett (1913)**
-1:500 000 méretarányú, kézzel festett eredeti vasúti hálózattérkép az Osztrák–Magyar Monarchia teljes területéről. Különleges értéke, hogy a tervezett, de meg nem valósult vonalakat is tartalmazza – köztük a soha meg nem épített Dráva-parti gyorspályát.
+### 31. Shinkansen 0-sorozat – „Golyóvonat" (Japán, 1964)
 
-**30. Állomásfőnöki egyenruha – teljes készlet (1902)**
-Magyar Királyi Államvasutak díszegyenruhája: arany-ezüst válllapok, sapka, fehér kesztyűk, díszgombok és eredeti szolgálati utasítás-füzet. Kiváló megőrzési állapot; egy valódi miskolci állomásfőnök hagyatékából adományozva.
+A Shinkansen 0-sorozat a vasúti közlekedés történetének egyik legnagyobb mérföldköve, amely 1964. október 1-jén, a tokiói olimpia előestéjén indult hódító útjára. Ez volt a világ első kereskedelmi forgalomba állított nagysebességű vasúti rendszere, amely a Tokaido vonalon mutatkozott be, és alapjaiban változtatta meg az utazási szokásokat a szigetországban. A kezdetben 210 km/h-s csúcssebességgel száguldó szerelvények jellegzetes, aerodinamikus, lekerekített orrformája és ikonikus fehér-kék festése a modern Japán és a technológiai fejlődés globális jelképévé vált. Sikere nemcsak a sebességben rejlett, hanem a pontosságban és a rendkívüli biztonságban is.
 
----
+### 32. Shinkansen N700S-sorozat – modern „Bullet Train" (Japán, 2020)
 
-## VI. A VILÁG NAGYSEBESSÉGŰ VASÚTJAI – Nemzetközi Terem
+A legújabb generációs japán szerelvények a fél évszázados fejlesztési munka csúcsát képviselik, ahol a kényelem és a hatékonyság tökéletes egyensúlyba került. A 300 km/h-s üzemi sebesség mellett a vonat 12 900 lóerős összteljesítményét elosztott hajtással, 32 villanymotor segítségével adja le a kerekeknek. Az extrém hosszúra nyúlt orrforma az aerodinamikai optimalizálás eredménye: megakadályozza a lökéshullámok kialakulását, amikor a szerelvény nagy sebességgel berobban a szűk alagutakba. Biztonsági rendszere olyan fejlett, hogy az 1964-es indulás óta a hálózat egyetlen utasáldozattal járó balesetet sem szenvedett el.
 
-> *A terem 1:5 és 1:10 méretarányú hiteles gyári modelleket, eredeti tervdokumentációkat, tesztelési adatrögzítő műszereket és korabeli enteriőr-rekonstrukciókat mutat be. Az eredeti szerelvények természetesen forgalomban vannak vagy nemzeti múzeumokban találhatók – kivéve a sebességrekord-kísérletre módosított egyedi példányokat.*
+### 33. TGV Sud-Est – az első francia nagysebességű szerelvény (Franciaország, 1981)
 
-**31. Shinkansen 0-sorozat – „Golyóvonat" (Japán, 1964)**
-A világ legelső kereskedelmi nagysebességű vasúti szerelvényének 1:5 méretarányú gyári modellje. Az első Shinkansen 1964. október 1-jén indult el a Tokaido vonalon a tokiói olimpiai játékok előtt, és azonnal forradalmasította a vasúti közlekedés fogalmát. Indulásakor 210 km/h csúcssebességgel közlekedett. A modell a jellegzetes tömblekerekített orrot és a fehér-kék festést mutatja; mellette az eredeti mérnöki tervrajzok fakszimiilei láthatók.
+A TGV (Train à Grande Vitesse) megjelenése Európa válasza volt a japán sikerekre, újradefiniálva a kontinensen belüli távolsági közlekedést. Az 1981-ben debütált Sud-Est sorozat a jellegzetes narancssárga festésével a sebesség és modernitás ikonja lett. Technikai felépítése alapvetően eltér a japán koncepciótól: itt a hajtást nem osztották el, hanem két nagy teljesítményű vonófej (mozdony) fogja közre a személykocsikat. Ez a felépítés tette lehetővé a kocsik közötti közös forgóvázak alkalmazását, ami stabilitást és csendes futást biztosított a nagy sebességű szakaszokon.
 
-**32. Shinkansen N700S-sorozat – modern „Bullet Train" (Japán, 2020)**
-A Tokaido Shinkansen legmodernebb generációjának 1:10 méretarányú modellje. A jelenlegi szerelvények 300 km/h sebességgel közlekednek, 731 ülőhellyel és 32 elektromos motorral, amelyek összesen kb. 12 900 LE teljesítményt adnak. Az aerodinamikai orrforma elsődleges feladata az alagút-belépéskor keletkező hangrobbanás megelőzése. Az 1964-es indulás óta a Shinkansen egyetlen halálos balesetet sem szenvedett el.
+### 34. TGV POS – sebességrekord-szerelvény (Franciaország, 2007)
 
-**33. TGV Sud-Est – az első francia nagysebességű szerelvény (Franciaország, 1981)**
-A TGV 1981-es üzembe helyezésével a világ második kereskedelmi célú nagysebességű vasúti szolgáltatása indult el, Japán Shinkansenét követve. Az itt bemutatott 1:5 méretarányú modell a jellegzetes narancssárga-szürke eredeti festési sémát viseli. Az erőátvitel sajátossága: a hajtóteljesítmény nem az egész szerelvényre, hanem kizárólag a két végén lévő vonófejre koncentrálódik – szemben a Shinkansen elosztott hajtásával.
+A TGV POS sorozat egy speciálisan módosított példánya 2007. április 3-án beírta magát a történelemkönyvekbe, amikor elérte az 574,8 km/h-s sebességet. Ehhez a kísérlethez a vontatómotorok teljesítményét a végletekig fokozták, a szerelvény pedig elképesztő, közel 20 megawattnyi energiát emésztett fel a csúcssebesség elérésekor. Ez a rekord azóta is a hagyományos, sínpályán futó vonatok veretlen világcsúcsa, bizonyítva, hogy a kerék-sín kapcsolatban rejlő fizikai határok jóval messzebb vannak, mint azt korábban gondolták.
 
-**34. TGV POS – sebességrekord-szerelvény (Franciaország, 2007)**
-2007. április 3-án egy TGV POS szerelvény a Párizs–Strasbourg vonalon 574,8 km/h sebességű világrekordot állított fel, amely azóta is a hagyományos kötöttpályás vasutak veretlen rekordja. A rekordkísérlethez a vontatómotorok teljesítményét a vontatófejekben 1950 kW-ra növelték; a szerelvény teljes teljesítményfelvétele 19,6 MW volt, közel kétszerese a menetrendszerű motorvonaténak. Eredeti mérőműszerek és dokumentumfilm-részlet kíséri a makettot.
+### 35. Eurostar Class 373 – a Csatorna-alagút vonata (1994)
 
-**35. Eurostar Class 373 – a Csatorna-alagút vonata (Nagy-Britannia/Franciaország, 1994)**
-Az Eurostar a TGV technológiáján alapul, de lényeges különbség a brit szelvénynek megfelelő kisebb keresztszelvény, a megnövelt tűzvédelem az alagúthoz, valamint a kompatibilitás a többfajta áramrendszerrel: Franciaországban és az alagútban 25 kV 50 Hz AC, Belgiumban 3 kV DC, a régi brit pályán 750 V DC harmadik sínből veszi az energiát. Engedélyezett sebessége 300 km/h, maximális teljesítménye 12 MW; 394 méteres hosszával a brit vasutak valaha volt leghosszabb vonata. A kiállítási tárgy egy eredeti I. osztályú ülőhely-rekonstrukció a korai szolgálati időszakból.
+Az Eurostar szerelvények a TGV technológiáját ötvözik a brit és kontinentális vasúti hálózatok szigorú és eltérő követelményeivel. Az alagútban való közlekedés miatt fokozott tűzbiztonsági rendszerekkel és speciális menekülési útvonalakkal szerelték fel őket. Különlegességük a „többáramneműség": a vonat képes az angol harmadik sínes 750 V-os egyenáramról, a belga 3 kV-os hálózatról és a francia 25 kV-os váltakozó áramú rendszerről is üzemelni. Közel 400 méteres hosszával ez a típus a brit vasutak valaha volt leghosszabb és legkomplexebb személyszállító vonata.
 
-**36. ICE 1 – az első német InterCityExpress (Németország, 1991)**
-Az utasok 1991. június 2-án vehették először igénybe az ICE-t; az ünnepélyes megnyitón Kasselben hat irányból futott be hat ICE-szerelvény. A mozdonyvontatású push-pull rendszerű vonatalapcsalád gyári előzménye, az ICE/V kísérleti szerelvény 1988. május 1-jén 406,9 km/h sebességgel döntött sebességrekordot a Hannover–Würzburg vonalon. A kiállított 1:5 méretarányú modell az eredeti krémfehér-piros festéssel látható; mellette az ICE/V kísérleti mérések eredeti menetgrafikonjai tekinthetők meg.
+### 36. ICE 1 – az első német InterCityExpress (Németország, 1991)
 
-**37. ICE 3 / Siemens Velaro D – elosztott hajtású nagysebességű motorvonat (Németország, 2000)**
-Az ICE 3 tervezési célja a korábbi generációknál könnyebb és nagyobb teljesítményű vonat létrehozása volt; ezt úgy érték el, hogy a 16 vontatómotort az egész vonat hosszában elosztva helyezték el a tengelyek alatt. A vonat 330 km/h-ra engedélyezett és teszteken 368 km/h-t ért el. Különlegessége az üvegfallal elválasztott, az első kocsiból nyíló mozdonyvezető-panorámaablak, amelyet a látogatók a modellen is megtekinthetnek.
+Németország 1991-ben lépett be a nagysebességű vasutak klubjába az ICE 1-es sorozattal, amely az utasok számára addig ismeretlen luxust és kényelmet hozott a mindennapi utazásba. A két vonófejes szerelvények a Hannover–Würzburg vonalon debütáltak, ahol a kísérleti elődtípus már korábban 400 km/h feletti sebességet ért el. Az ICE nemcsak egy vonat volt, hanem egy teljes szolgáltatási koncepció része: a krémfehér festés, a vörös csík és a beépített audiovizuális utastájékoztató rendszer a német precizitás és minőség szimbólumává vált a síneken.
 
-**38. AVE S-103 / Siemens Velaro E – spanyol nagysebességű vonat (Spanyolország, 2005)**
-2006 júliusában egy Velaro-szerelvény 403,7 km/h sebességet ért el tesztkörülmények között. A spanyol RENFE által üzemeltetett AVE S-103 menetrendszerű engedélyezett sebessége 350 km/h, az egyik legmagasabb a forgalomban lévő vonatok között. A kiállított tárgy egy eredeti AVE-ülőhely és fejtámla, amelyet a spanyol vasutak adományoztak; mellette a Madrid–Barcelona vonal korabeli menetrendfüzete látható.
+### 37. ICE 3 / Siemens Velaro D (Németország, 2000)
 
-**39. CRH3 „Hexie" – kínai nagysebességű motorvonat (Kína, 2008)**
-A Siemens Velaro-platformon alapuló, de 300 mm-rel szélesebb kínai változat, amelybe 2+3-as üléselrendezéssel 572 utas fér el. 2008. június 24-én a CRH3-001C tesztvonat 394,3 km/h csúcssebességet ért el a Peking–Tiencsin nagysebességű vonalon. A kiállítás az 1:10 méretarányú modell mellett a kínai–német technológiatranszfer eredeti szerződéses dokumentumainak fakszimiléjét is bemutatja.
+Az ICE 3 generáció szakított a korábbi mozdonyvontatású koncepcióval, és a Siemens mérnökei az elosztott hajtás mellett döntöttek. A vontatómotorok a kocsik padlója alá kerültek, ami több helyet hagyott az utasoknak és jobb súlyelosztást biztosított. Ez a megoldás tette lehetővé a híres „panorámaablak" kialakítását: az utasok közvetlenül a mozdonyvezető mögül, egy üvegfalon keresztül nézhetik a pálya futását. A vonat 330 km/h-ra engedélyezett végsebessége és dinamikus gyorsulása tette lehetővé a meredekebb pályák (pl. Köln–Frankfurt vonal) gazdaságos kiszolgálását.
 
-**40. CR400AF „Fuxing" – kínai „Reneszánsz" motorvonat (Kína, 2017)**
-Kína saját fejlesztésű, 400-as sorozatú nagysebességű motorvonata, amely az importált technológiák helyett már teljes egészében hazai fejlesztésen alapul. Menetrendszerű sebessége 350 km/h; a Peking–Sanghaj vonalon rendszeresen üzemel. Neve „Fuxing" (復興), azaz újjászületés – jelképezve Kína vasúti technológiai önállóságát. A kiállított 1:20 méretarányú modell a teljes 17 kocsiból álló hosszú változatot ábrázolja.
+### 38. AVE S-103 / Siemens Velaro E (Spanyolország, 2005)
 
-**41. ETR 450 „Pendolino" – olasz dőlőkerekes motorvonat (Olaszország, 1988)**
-A Fiat Ferroviaria által kifejlesztett aktív dőlőszekrényes technológia úttörőjének gyári modellje. A Pendolino rendszere ívekben akár 8°-ot dönt a szerelvényen, lehetővé téve a hagyományos, kanyaros pályákon is a nagysebességű közlekedést anélkül, hogy új egyenes pályát kellene építeni. A technológia világ körül elterjedt: a kiállítás táblája bemutatja, hogy az ETR 450 elvét átvette a finn, lengyel, cseh és brit vasút is.
+A spanyol AVE hálózaton közlekedő S-103-as sorozat a német Velaro-platform egyik leggyorsabb változata. Míg sok országban 300 km/h a limit, a spanyol vonatok a Madrid és Barcelona közötti vonalon rendszeresen 350 km/h-val szállítják az utasokat, ami az egyik legmagasabb menetrendszerű sebesség a világon. A szerelvények belső kialakítása a spanyol eleganciát tükrözi, a technológia pedig olyan hatékony, hogy a vonat sikeresen vette át a forgalom jelentős részét a repülőgépektől a két nagyváros között.
 
-**42. Acela Express – Észak-Amerika egyetlen nagysebességű vonata (USA, 2000)**
-Az Amtrak által a Washington–Boston tengelyen üzemeltetett szerelvény modellje és eredeti utastéri kellékei. Az Alstom által gyártott, Pendolino-technológián alapuló vonat maximális sebessége 240 km/h, de a megosztott pályainfrastruktúra miatt rendszeresen csak 150–200 km/h-n közlekedik. A kiállítás ezt az ellentmondást és az amerikai vasútfejlesztés korlátait is részletesen bemutatja.
+### 39. CRH3 „Hexie" (Kína, 2008)
+
+A kínai vasúti forradalom egyik első nagysebességű típusa a német Velaro technológiáján alapult, de a helyi igényekhez igazítva szélesebb kocsiszekrénnyel készült. Ez a módosítás lehetővé tette a 2+3-as üléselrendezést, amivel a vonat befogadóképessége jelentősen megnőtt, kiszolgálva a hatalmas utasszámot a Peking és Tiencsin közötti vonalon. A típus mérföldkövet jelentett Kína számára: a technológiatranszfer révén elsajátított tudást használták fel később a teljesen saját fejlesztésű, következő generációs vonataik megalkotásához.
+
+### 40. CR400AF „Fuxing" (Kína, 2017)
+
+A „Fuxing" (Újjászületés) nevet viselő sorozat Kína válasza a globális versenyre: egy 400 km/h-s sebességre tervezett, de üzemszerűen 350 km/h-val közlekedő motorvonat, amely már teljes egészében hazai mérnöki munka eredménye. A fejlesztés során több mint 2500 technológiai szabadalmat jegyeztek be, az aerodinamikától az energiafelhasználásig. A Peking és Sanghaj közötti vonalon rendszeresen közlekedő szerelvények nemcsak gyorsak, hanem rendkívül energiahatékonyak is, jelképezve Kína vasúttechnológiai önállóságát és globális vezető szerepét.
+
+### 41. ETR 450 „Pendolino" (Olaszország, 1988)
+
+Az olasz „Pendolino" forradalmasította a vasúti közlekedést a kanyargós vonalakon az aktív dőlésszekrényes technológia bevezetésével. A Fiat Ferroviaria által fejlesztett rendszer a szerelvényt az ívekben (kanyarokban) akár 8 fokkal bedönti, ellensúlyozva a centripetális erőt. Ez lehetővé tette, hogy a vonatok a régi, ívekkel teli pályákon is 20-30%-kal gyorsabban haladjanak anélkül, hogy új, drága egyenes pályákat kellene építeni. A technológia annyira sikeresnek bizonyult, hogy az olasz licenc alapján készült vonatok ma már Európa-szerte, Finnországtól Lengyelországig közlekednek.
+
+### 42. Acela Express (USA, 2000)
+
+Észak-Amerika egyetlen valódi nagysebességű vonata a Washington és Boston közötti északkeleti folyosón közlekedik, ahol a sűrű népesség miatt volt igény a gyors vasúti eljutásra. Az Alstom által gyártott, francia TGV és olasz Pendolino elemeket ötvöző szerelvény dőlőszekrényes technológiával rendelkezik, hogy megbirkózzon a régi pálya íveivel. Bár a vonat 240 km/h-ra is képes lenne, az elöregedett amerikai pályainfrastruktúra és a tehervonatokkal közösen használt szakaszok miatt a valóságban ritkán haladhatja meg a 200 km/h-s sebességet.

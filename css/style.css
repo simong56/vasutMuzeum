@@ -114,6 +114,8 @@ h1 {
 img {
     width: 128px;
     border-radius: 10px;
+    margin: 0 0 auto 0;
+    object-fit: cover;
     cursor: pointer;
     outline: 0px solid transparent;
     transition-property: filter, outline;
