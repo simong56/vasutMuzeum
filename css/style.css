@@ -9,15 +9,15 @@
   --body-bg:     #F0F0DB;  /* warm cream body */
   --hover-bg:    #252A3E;  /* darker navy for sidebar hover */
   --border:      #C5C5AD;  /* slightly darker than cream */
-  --amber:       #E1D9BC;  /* warm cream accent on dark sidebar */
+  --amber:       #E7E7C5;  /* warm cream accent on dark sidebar */
   --text:        #30364F;  /* dark navy for body text */
   --muted:       #ACBAC4;  /* muted blue-grey for nav links on dark bg */
-  --icon:        #6B7589;  /* dimmed icon color */
+  --icon:        #C5C5AD;  /* dimmed icon color */
 }
 
 body {
   background-color: var(--body-bg);
-  font-family: system-ui, sans-serif;
+  font-family: 'Raleway', system-ui, sans-serif;
   color: var(--text);
   display: flex;
   min-height: 100vh;
@@ -27,7 +27,9 @@ nav {
   display: flex;
   flex-direction: column;
   width: 280px;
-  min-height: 100vh;
+  height: 100vh;
+  position: sticky;
+  top: 0;
   background: var(--sidebar-bg);
   flex-shrink: 0;
   border-right: 1px solid var(--border);
@@ -46,6 +48,7 @@ nav a.active {
   background: var(--hover-bg);
   color: var(--amber);
   border-left: 3px solid var(--amber);
+  font-weight: bold;
 }
 
 #app {
@@ -91,4 +94,57 @@ nav.collapsed #collapse-btn {
 nav {
   overflow: hidden;
   transition: width 0.1s;
+}
+
+p {
+    font-family: "Arvo", system-ui, sans-serif;
+    text-align: justify;
+}
+
+h1 {
+    width: 100%;
+    padding: 20px 0 20px 0;
+    border-radius: 10px;
+    font-size: 48px;
+    color: var(--body-bg);
+    text-align: center;
+    background-color: var(--sidebar-bg);
+}
+
+img {
+    width: 128px;
+    border-radius: 10px;
+}
+
+.colcont {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.rowcont {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;    
+}
+
+hr {
+    width: 100%;
+    border: 1px solid var(--border);
+}
+
+section {
+    padding: 20px;
+}
+
+details {
+    border: 2px solid var(--border);
+    border-radius: 10px;
+}
+
+summary {
+    font-size: 32px;
+    text-align: left;
+    width: 100%;
+    padding: 20px;
 }
