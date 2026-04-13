@@ -24,17 +24,17 @@ Ez a ritka, kombinált hajtású gőzmozdony az átmeneti domborzati viszonyok s
 
 ## 2. Dízel–mechanikus mozdonyok
 
-### 6. Ganz-féle dízel-mechanikus motorkocsi-mozdony – M25-ös sorozat (1936)
+### 6. MÁV M28,1001 dízel-mechanikus tolatómozdony
 
-A Ganz Vagongyár úttörő fejlesztése a motorizáció korai szakaszából származik, célja a gazdaságtalan gőzvontatás kiváltása volt a mellékvonalakon. A 100 kW-os hajtómotor és az egyszerű, többfokozatú mechanikus sebességváltó a korabeli teherautók technológiáját emelte vasúti szintre. Bár vonóereje korlátozott volt, a könnyű személyszállító vonatok továbbítására és a kisebb állomások tolatási feladatainak elvégzésére tökéletesen megfelelt, megalapozva a későbbi, nagyobb teljesítményű dízelmozdonyok sikerét.
+A Wilhelm Pieck Vagon- és Gépgyár (Győr) 1956-ban gyártotta ezt a kis teljesítményű, dízel-mechanikus tolatómozdony-t (Rába M.030 típus). Tengelyelrendezése B, legnagyobb sebessége 31 km/h, tömege 19 tonna, motorteljesítménye 95 kW. Elsősorban ipari pályákon és tolatási feladatokra tervezték, mechanikus sebességváltóval. Ma a Magyar Vasúttörténeti Parkban őrzik, ahol a magyar dízelmozdony-gyártás korai darabjaként látható. Beceneve: „Mazsola”.
 
-### 7. Keskeny nyomközű dízel-mechanikus kismozdony – Gmf 1/1 típus (1950-es évek)
+### 7. C-50 keskeny nyomtávú dízel-mechanikus mozdony
 
-A 760 mm-es nyomtávolságú erdei és ipari vasutak nélkülözhetetlen szereplője ez a robusztus kismozdony, amelyet a legzordabb munkakörülményekre terveztek. Hegesztett acélváza és egyszerű mechanikus erőátvitele lehetővé tette a helyszíni, akár erdőszéli karbantartást is. Különlegessége a kézi működtetésű forgó-fordító berendezés, amellyel a mozdony akár egy helyben is megfordítható volt, ha a pálya vége nem rendelkezett hurokvágánnyal. Ez a típus évtizedeken át szolgálta a fa- és nyersanyagszállítást a nehezen megközelíthető vidékeken.
+A magyar gyártmányú C-50 sorozat (1952–1968 között kb. 280 db készült) 760 mm (vagy 600 mm) nyomtávú keskenyvasúti dízel-mechanikus mozdony. Csepel W 413 (vagy D 413) dízelmotor hajtja (kb. 85 LE / 63 kW), mechanikus erőátvitellel, legnagyobb sebessége 30 km/h. Erdészeti és ipari kisvasutakon használták tolatásra és könnyű vonatok vontatására. Számos példánya ma is múzeumokban vagy működő keskenyvasutakon látható (pl. magyar erdei vasutakon), ikonikus kis „munkagép” a keskeny nyomtávú hálózatokon.
 
 ## 3. Dízel–hidraulikus mozdonyok
 
-### 8. DHM 2-2 típusú dízel-hidraulikus tolatómozdony (1959)
+### 8. DHM – 2 MÁV M31 sorozat (1959)
 
 A Ganz-MÁVAG nemzetközi sikereit is megalapozó típus a hidrodinamikus erőátvitel elvén alapult, ahol a 450 lóerős motor nyomatékát folyadékkör közvetítette a kerekekhez. Ez a megoldás sima indulást és fokozatmentes gyorsulást biztosított, ami ideálissá tette a nehéz tolatási manőverekhez. Bár a típus jelentős exportkarriert futott be – többek között Egyiptomban is –, a hazai hálózaton a bonyolultabb karbantartási igényei miatt végül háttérbe szorult a később elterjedő villamos erőátvitelű típusokkal szemben.
 
@@ -42,9 +42,9 @@ A Ganz-MÁVAG nemzetközi sikereit is megalapozó típus a hidrodinamikus erőá
 
 Az M41-es sorozat a magyar vasút modernizációjának egyik legfontosabb láncszeme volt, amely a gőzvontatás végleges felszámolását tűzte ki célul a nem villamosított fővonalakon. Nevét a V12-es Pielstick-licenc alapján készült dízelmotor összetéveszthetetlen, fémes csörgő hangjáról kapta. A hidraulikus hajtómű közvetlenül, elektromos generátor közbeiktatása nélkül mozgatja a négy tengelyt, ami kompakt és viszonylag könnyű szerkezetet eredményezett. Sokoldalúságát bizonyítja, hogy a nehéz személyszállító vonatoktól a teherszerelvényekig szinte minden forgalmi helyzetben helytállt.
 
-### 10. Exportmozdony-tervek – DHX sorozat (1961)
+### 10. MÁV M46.2001 dízel-hidraulikus mozdony
 
-A DHX sorozat a Ganz-MÁVAG mérnöki export-offenzívájának csúcsát képviselte, kifejezetten a Közel-Kelet extrém időjárási körülményeihez tervezve. A tervekben különös figyelmet fordítottak a homok elleni védelemre és a hűtőrendszer hatékonyságára, hogy a gépek a sivatagi hőségben is üzembiztosak maradjanak. Ezek a dízel-hidraulikus mozdonyok az egyiptomi államvasutak megrendelésére készültek, és a magyar gépipar akkori nemzetközi versenyképességének legfontosabb bizonyítékai voltak a globális piacon.
+A Ganz-MÁVAG 1961-ben készítette ezt a négytengelyes (B'B') kísérleti dízel-hidraulikus mozdonyt (gyári típus: DHM3-1). Motorteljesítménye 450 kW, legnagyobb sebessége 60 km/h, tömege 47,6 tonna. Mellékvonali vontatásra és tolatásra tervezték prototípusként, Voith-licencű hidraulikus hajtóművel. Két példány készült belőle, a M46.2001 ma a Magyar Vasúttörténeti Parkban látható – a magyar dízelhidraulikus fejlesztés egyik korai, ritka darabjaként, tökéletes választás egy online múzeumi virtuális kiállításhoz.
 
 ## 4. Dízel–villamos mozdonyok
 
