@@ -40,14 +40,14 @@ nav a {
   color: var(--muted);
   padding: 0.75rem 1rem;
   transition: background 0.2s, color 0.2s, border-color 0.2s;
-  border-right: 3px solid transparent;
+  border-left: 3px solid transparent;
 }
 
 nav a:hover,
 nav a.active {
   background: var(--hover-bg);
   color: var(--amber);
-  border-left: 3px solid var(--amber);
+  border-left-color: var(--amber);
   font-weight: bold;
 }
 
@@ -112,19 +112,22 @@ h1 {
 }
 
 img {
-    width: 128px;
+    width: 200px;
+    height: 140px;
     border-radius: 10px;
-    margin: 0 0 auto 0;
+    margin: 0;
     object-fit: cover;
     cursor: pointer;
     outline: 0px solid transparent;
-    transition-property: filter, outline;
-    transition-duration: 0.1s;
+    transition-property: filter, outline, transform;
+    transition-duration: 0.15s;
     transition-timing-function: ease-in-out;
+    flex-shrink: 0;
 }
 
 img:hover {
     outline: 4px solid var(--sidebar-bg);
+    transform: translateY(-2px);
 }
 
 .colcont {
@@ -136,7 +139,14 @@ img:hover {
 .rowcont {
     display: flex;
     gap: 20px;
-    flex-direction: row;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.rowcont p {
+    flex: 1 1 320px;
+    min-width: 0;
 }
 
 hr {
@@ -184,4 +194,246 @@ summary {
 
 .lightbox.hidden {
     display: none;
+}
+
+/* ===== Saját details/summary nyíl ===== */
+details {
+    overflow: hidden;
+}
+
+summary {
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    transition: background 0.15s;
+    user-select: none;
+}
+
+summary::-webkit-details-marker {
+    display: none;
+}
+
+summary::before {
+    content: "▸";
+    color: var(--sidebar-bg);
+    font-size: 1em;
+    transition: transform 0.2s ease;
+    display: inline-block;
+}
+
+details[open] > summary::before {
+    transform: rotate(90deg);
+}
+
+summary:hover {
+    background: #f7f4e8;
+}
+
+/* ===== Lightbox close gomb és súgó ===== */
+.lightbox-close {
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+    background: rgba(0, 0, 0, 0.35);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    line-height: 1;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 50%;
+    transition: background 0.15s, transform 0.15s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lightbox-close:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.08);
+}
+
+.lightbox-hint {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.85rem;
+    pointer-events: none;
+}
+
+/* ===== Kép-placeholder (hiányzó képekhez) ===== */
+.img-placeholder {
+    width: 200px;
+    height: 140px;
+    border-radius: 10px;
+    background: repeating-linear-gradient(
+        45deg,
+        #e8e8d0,
+        #e8e8d0 12px,
+        #dcdcc2 12px,
+        #dcdcc2 24px
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7a7a5e;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+    border: 1px dashed var(--border);
+    font-style: italic;
+}
+
+/* ===== Mobil-reszponzivitás ===== */
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    nav {
+        width: 100%;
+        height: auto;
+        position: sticky;
+        top: 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0.5rem 0.75rem;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+        z-index: 100;
+        gap: 0;
+        overflow: visible;
+    }
+
+    nav::before {
+        content: "🚂 Vasút Múzeum";
+        font-family: 'Arvo', serif;
+        color: var(--amber);
+        font-size: 1.05rem;
+        font-weight: bold;
+        margin-right: auto;
+        padding: 0.25rem 0.5rem;
+    }
+
+    nav a {
+        width: 100%;
+        padding: 0.85rem 1rem;
+        border-left: 3px solid transparent;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+
+    nav.collapsed {
+        width: 100%;
+    }
+
+    nav.collapsed a {
+        display: none;
+    }
+
+    nav:not(.collapsed) {
+        max-height: 100vh;
+        overflow-y: auto;
+    }
+
+    #collapse-btn {
+        margin-top: 0;
+        padding: 0.3rem 0.75rem;
+        font-size: 0;
+        width: auto;
+        height: auto;
+    }
+
+    #collapse-btn::before {
+        content: "☰";
+        font-size: 1.6rem;
+        color: var(--icon);
+    }
+
+    nav:not(.collapsed) #collapse-btn::before {
+        content: "✕";
+    }
+
+    nav.collapsed #collapse-btn {
+        transform: none;
+        width: auto;
+        padding: 0.3rem 0.75rem;
+        text-align: center;
+    }
+
+    #app {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        padding: 14px 8px;
+    }
+
+    summary {
+        font-size: 1.25rem;
+        padding: 1rem;
+    }
+
+    section {
+        padding: 0.75rem;
+    }
+
+    .rowcont {
+        flex-direction: column;
+    }
+
+    .rowcont img,
+    .img-placeholder {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        max-height: 260px;
+        aspect-ratio: 16 / 10;
+    }
+
+    .rowcont p {
+        flex: 1 1 auto;
+    }
+
+    /* Home oldal reszponzivitás */
+    .home-grid,
+    .facts-grid,
+    .highlights {
+        grid-template-columns: 1fr !important;
+    }
+
+    .hero-content {
+        padding: 1.5rem !important;
+    }
+
+    .hero-content h1 {
+        font-size: 1.8rem !important;
+    }
+
+    .lightbox-close {
+        top: 0.75rem;
+        right: 0.75rem;
+    }
+
+    .lightbox-hint {
+        font-size: 0.75rem;
+        padding: 0 1rem;
+        text-align: center;
+    }
+}
+
+/* Nagyobb tabletek: 2 oszlop a home-on elég */
+@media (max-width: 960px) and (min-width: 769px) {
+    .facts-grid,
+    .highlights {
+        grid-template-columns: 1fr 1fr !important;
+    }
 }

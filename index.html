@@ -14,6 +14,7 @@
 <body>
   <nav id="sidebar">
     <a href="#/" data-link>Főoldal</a>
+    <a href="#/terkep" data-link>🗺️ Alaprajz</a>
     <a href="#/mozdonyok" data-link>Mozdonyok</a>
     <a href="#/nagysebessegu" data-link>Nagysebességű vonatok</a>
     <a href="#/szemely-motorkocsik" data-link>Személykocsik és motorkocsik</a>
@@ -26,7 +27,9 @@
   <div id="app"></div>
 
   <div id="lightbox" class="lightbox hidden">
+    <button id="lightbox-close" class="lightbox-close" type="button" aria-label="Bezárás">&times;</button>
     <img id="lightbox-img" src="" alt="">
+    <div class="lightbox-hint">Kattints a képen kívül, a × gombra, vagy nyomd meg az ESC-et a bezáráshoz</div>
   </div>
 
   <script src="js/router.js"></script>

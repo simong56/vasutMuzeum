@@ -1,5 +1,6 @@
 const routes = {
   "/": { title: "Főoldal", file: "/routes/home.html" },
+  "/terkep": { title: "Alaprajz", file: "/routes/terkep.html" },
   "/mozdonyok": { title: "Mozdonyok", file: "/routes/mozdonyok.html" },
   "/nagysebessegu": { title: "Nagysebességű vonatok", file: "/routes/nagysebessegu.html" },
   "/szemely-motorkocsik": { title: "Személykocsik és motorkocsik", file: "/routes/szemely-motorkocsik.html" },
@@ -9,6 +10,12 @@ const routes = {
 };
 
 const app = document.getElementById("app");
+const sidebar = document.getElementById("sidebar");
+
+// Mobilon alapból legyen becsukva a sidebar
+if (window.innerWidth <= 768) {
+  sidebar.classList.add("collapsed");
+}
 
 async function navigateTo(path) {
   const route = routes[path] || routes["/"];
@@ -21,6 +28,14 @@ async function navigateTo(path) {
     const linkPath = link.getAttribute("href").replace(/^#/, "");
     link.classList.toggle("active", linkPath === path);
   });
+
+  // Ugorjunk az oldal tetejére minden navigációnál
+  window.scrollTo({ top: 0, behavior: "smooth" });
+
+  // Mobilon zárjuk be a menüt a kattintás után
+  if (window.innerWidth <= 768) {
+    sidebar.classList.add("collapsed");
+  }
 }
 
 function router() {

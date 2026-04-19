@@ -1,0 +1,367 @@
+<style>
+    .terkep-wrapper {
+        position: relative;
+        max-width: 1000px;
+        margin: 0 auto;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 12px rgba(48, 54, 79, 0.08);
+        background: var(--body-bg);
+    }
+
+    .terkep-wrapper img {
+        width: 100%;
+        height: auto;
+        display: block;
+        cursor: default;
+        /* Felülírjuk az alapértelmezett img stílust */
+        object-fit: unset;
+        border-radius: 0;
+        outline: none;
+        transition: none;
+    }
+
+    .terkep-wrapper img:hover {
+        outline: none;
+        transform: none;
+    }
+
+    .terkep-wrapper area {
+        cursor: pointer;
+    }
+
+    /* Info panel - mutatja, melyik teremre mutatsz */
+    .terem-info {
+        background: white;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 1.25rem 1.5rem;
+        margin-top: 1.5rem;
+        min-height: 110px;
+        transition: border-color 0.2s, background 0.2s;
+    }
+
+    .terem-info.active {
+        border-color: var(--sidebar-bg);
+        background: #fbf9ec;
+    }
+
+    .terem-info .info-head {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .terem-info .info-num {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: var(--sidebar-bg);
+        color: var(--amber);
+        font-family: 'Arvo', serif;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .terem-info h3 {
+        font-family: 'Arvo', serif;
+        color: var(--sidebar-bg);
+        margin: 0;
+        font-size: 1.25rem;
+    }
+
+    .terem-info p {
+        font-family: 'Raleway', sans-serif;
+        color: #555;
+        margin: 0.25rem 0 0 0;
+        text-align: left;
+    }
+
+    .terem-info .hint {
+        color: var(--sidebar-bg);
+        font-weight: bold;
+        margin-top: 0.5rem;
+    }
+
+    .terkep-legend {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .legend-card {
+        display: flex;
+        align-items: center;
+        gap: 0.85rem;
+        padding: 0.9rem 1rem;
+        background: white;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        text-decoration: none;
+        color: inherit;
+        transition: transform 0.15s, border-color 0.15s, background 0.15s;
+    }
+
+    .legend-card:hover {
+        border-color: var(--sidebar-bg);
+        background: #fbf9ec;
+        transform: translateY(-2px);
+    }
+
+    .legend-card .card-num {
+        flex-shrink: 0;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: var(--sidebar-bg);
+        color: var(--amber);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Arvo', serif;
+        font-weight: bold;
+        font-size: 0.95rem;
+    }
+
+    .legend-card .card-body strong {
+        display: block;
+        font-family: 'Arvo', serif;
+        color: var(--sidebar-bg);
+        font-size: 1rem;
+    }
+
+    .legend-card .card-body small {
+        display: block;
+        color: #666;
+        font-family: 'Raleway', sans-serif;
+        font-size: 0.82rem;
+        margin-top: 0.1rem;
+    }
+
+    @media (max-width: 768px) {
+        .terem-info { min-height: auto; }
+    }
+</style>
+
+<div class="colcont">
+    <h1>Múzeumi alaprajz</h1>
+
+    <section>
+        <p style="text-align: left;">
+            A Vasúti Közlekedési Eszközök Múzeumának kiállítótermei egy U-alakú
+            elrendezésben helyezkednek el egy központi teremmel. A bejárat után
+            balra haladva érkezel a <strong>Mozdonyok</strong> csarnokba, a
+            folyosón körbejárva pedig felfedezheted a különleges járműveket,
+            műszereket és a világ nagysebességű vonatainak gyűjteményét.
+            <br><br>
+            <em>Kattints egy teremre a térképen a belépéshez.</em>
+        </p>
+    </section>
+
+    <!-- ====== TÉRKÉP ====== -->
+    <div class="terkep-wrapper">
+        <img id="terkep-img" src="/img/muzeum-terkep.png"
+             usemap="#museumMap" alt="A múzeum alaprajza 6 kiállítóteremmel" />
+
+        <map name="museumMap">
+            <!-- I. Mozdonyok (L-alakú terem a bal felső részen) -->
+            <area shape="poly"
+                  coords="100,110,420,110,420,220,250,220,250,340,100,340"
+                  href="#/mozdonyok"
+                  alt="I. Mozdonyok"
+                  title="I. Mozdonyok — Gőz, dízel és villamos mozdonyok (17 tárgy)"
+                  data-room="mozdonyok" />
+
+            <!-- VI. Nagysebességű vonatok (jobb felső, tükrözött L) -->
+            <area shape="poly"
+                  coords="600,110,920,110,920,340,770,340,770,220,600,220"
+                  href="#/nagysebessegu"
+                  alt="VI. Nagysebességű vonatok"
+                  title="VI. Nagysebességű vonatok — A világ golyóvonatjai (12 tárgy)"
+                  data-room="nagysebessegu" />
+
+            <!-- II. Személykocsik (bal alsó, lent nyíló L) -->
+            <area shape="poly"
+                  coords="100,430,250,430,250,500,420,500,420,600,100,600"
+                  href="#/szemely-motorkocsik"
+                  alt="II. Személykocsik és motorkocsik"
+                  title="II. Személykocsik és motorkocsik (4 tárgy)"
+                  data-room="szemely-motorkocsik" />
+
+            <!-- III. Pályafenntartó (jobb alsó) -->
+            <area shape="poly"
+                  coords="600,500,770,500,770,430,920,430,920,600,600,600"
+                  href="#/palyafenntarto"
+                  alt="III. Pályafenntartó járművek"
+                  title="III. Pályafenntartó és különleges járművek (3 tárgy)"
+                  data-room="palyafenntarto" />
+
+            <!-- IV. Műszerek (központi szoba - egyszerű téglalap) -->
+            <area shape="rect"
+                  coords="400,310,620,460"
+                  href="#/muszerek"
+                  alt="IV. Műszerek, berendezések és jelzőeszközök"
+                  title="IV. Műszerek, berendezések és jelzőeszközök (4 tárgy)"
+                  data-room="muszerek" />
+
+            <!-- V. Dokumentumok (bejárati előtér) -->
+            <area shape="rect"
+                  coords="40,290,100,370"
+                  href="#/dokumentumok"
+                  alt="V. Dokumentumok, modellek és relikviák"
+                  title="V. Dokumentumok, modellek és relikviák (2 tárgy)"
+                  data-room="dokumentumok" />
+        </map>
+    </div>
+
+    <!-- ====== INFO PANEL (hover-info) ====== -->
+    <div class="terem-info" id="terem-info">
+        <div class="info-head">
+            <h3>Mozgasd a kurzort egy terem fölé</h3>
+        </div>
+        <p>
+            A múzeum 6 kiállítótérben <strong>összesen 42 tárgyat</strong> mutat be
+            — a 19. századi gőzmozdonyoktól a 21. századi nagysebességű vonatokig.
+            Mobilon koppints egy teremre a belépéshez.
+        </p>
+    </div>
+
+    <!-- ====== TERMEK LISTÁJA (legendaként + mobil-barát navigáció) ====== -->
+    <h2 style="font-family: 'Arvo', serif; color: var(--sidebar-bg); margin-top: 1rem;">
+        A termek listája
+    </h2>
+
+    <div class="terkep-legend">
+        <a href="#/mozdonyok" class="legend-card">
+            <span class="card-num">I</span>
+            <div class="card-body">
+                <strong>Mozdonyok</strong>
+                <small>Gőz · Dízel · Villamos — 17 tárgy</small>
+            </div>
+        </a>
+        <a href="#/szemely-motorkocsik" class="legend-card">
+            <span class="card-num">II</span>
+            <div class="card-body">
+                <strong>Személykocsik</strong>
+                <small>és motorkocsik — 4 tárgy</small>
+            </div>
+        </a>
+        <a href="#/palyafenntarto" class="legend-card">
+            <span class="card-num">III</span>
+            <div class="card-body">
+                <strong>Pályafenntartó</strong>
+                <small>és különleges járművek — 3 tárgy</small>
+            </div>
+        </a>
+        <a href="#/muszerek" class="legend-card">
+            <span class="card-num">IV</span>
+            <div class="card-body">
+                <strong>Műszerek</strong>
+                <small>jelzők és berendezések — 4 tárgy</small>
+            </div>
+        </a>
+        <a href="#/dokumentumok" class="legend-card">
+            <span class="card-num">V</span>
+            <div class="card-body">
+                <strong>Dokumentumok</strong>
+                <small>modellek és relikviák — 2 tárgy</small>
+            </div>
+        </a>
+        <a href="#/nagysebessegu" class="legend-card">
+            <span class="card-num">VI</span>
+            <div class="card-body">
+                <strong>Nagysebességű vonatok</strong>
+                <small>12 ország golyóvonatjai — 12 tárgy</small>
+            </div>
+        </a>
+    </div>
+</div>
+
+<script>
+    // ========= Adatok a terem-info panelhez =========
+    const teremAdatok = {
+        "mozdonyok": {
+            num: "I",
+            name: "Mozdonyok",
+            desc: "A magyar vasúttörténet szíve: 17 mozdony a gőzmozdonyoktól a modern villamos „Gigantig".
+        },
+        "szemely-motorkocsik": {
+            num: "II",
+            name: "Személykocsik és motorkocsik",
+            desc: "4 történelmi személyszállító kocsi — étkezőkocsi, postakocsi, hálókocsi és korai motorkocsi.",
+        },
+        "palyafenntarto": {
+            num: "III",
+            name: "Pályafenntartó és különleges járművek",
+            desc: "A vasúti pálya karbantartását szolgáló 3 különleges jármű és eszköz.",
+        },
+        "muszerek": {
+            num: "IV",
+            name: "Műszerek, berendezések és jelzőeszközök",
+            desc: "4 kiállítási tárgy: vezérlőállás, blokktábla, szemafor és telefonközpont.",
+        },
+        "dokumentumok": {
+            num: "V",
+            name: "Dokumentumok, modellek és relikviák",
+            desc: "A vasúti szolgálat mindennapjai: biztosítóberendezés, távíró, jegylyukasztó.",
+        },
+        "nagysebessegu": {
+            num: "VI",
+            name: "Nagysebességű vonatok",
+            desc: "A világ 12 leghíresebb golyóvonata: Shinkansen, TGV, ICE, AVE, Fuxing és sok más.",
+        },
+    };
+
+    const infoEl = document.getElementById("terem-info");
+    const defaultInfo = infoEl.innerHTML;
+
+    document.querySelectorAll("area[data-room]").forEach((area) => {
+        area.addEventListener("mouseenter", () => {
+            const key = area.dataset.room;
+            const t = teremAdatok[key];
+            if (!t) return;
+            infoEl.classList.add("active");
+            infoEl.innerHTML = `
+                <div class="info-head">
+                    <span class="info-num">${t.num}</span>
+                    <h3>${t.name}</h3>
+                </div>
+                <p>${t.desc}</p>
+                <p class="hint">→ Kattints a teremre a belépéshez</p>
+            `;
+        });
+
+        area.addEventListener("mouseleave", () => {
+            infoEl.classList.remove("active");
+            infoEl.innerHTML = defaultInfo;
+        });
+    });
+
+    const terkepImg = document.getElementById("terkep-img");
+
+    function skalazImageMap() {
+        if (!terkepImg.complete || !terkepImg.naturalWidth) return;
+        const ratio = terkepImg.clientWidth / terkepImg.naturalWidth;
+
+        document.querySelectorAll("area").forEach((area) => {
+            if (!area.dataset.origCoords) {
+                area.dataset.origCoords = area.coords;
+            }
+            const eredeti = area.dataset.origCoords.split(",").map(Number);
+            area.coords = eredeti.map((n) => Math.round(n * ratio)).join(",");
+        });
+    }
+
+    if (terkepImg.complete) {
+        skalazImageMap();
+    } else {
+        terkepImg.addEventListener("load", skalazImageMap);
+    }
+    window.addEventListener("resize", skalazImageMap);
+</script>
